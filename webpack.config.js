@@ -12,6 +12,7 @@ module.exports = {
       hash: false,
       filename: 'index.html',
       inject: 'body',
+      favicon: './src/static/favicon.ico',
     })
   ],
   output: {
