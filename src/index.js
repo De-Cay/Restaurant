@@ -1,10 +1,16 @@
-import header from './components/header';
+import Header from './components/header';
 import home from './components/home';
 import contact from './components/contact';
 import menu from './components/menu';
-import css from './styles/main.css';
-import logo from './static/images/logo.jpg';
+import './styles/main.css';
 
 
 const $root = document.getElementById('root');
-$root.appendChild(header);
+$root.innerHTML = Header.render();
+
+const router = (event) => {
+  // $root.insertAdjacentHTML('beforeend', home());
+}
+
+window.addEventListener('load', router, false);
+window.addEventListener('hashchange', router, false);

@@ -1,15 +1,55 @@
 import logo from '../static/images/logo.jpg';
-const $header = document.createElement('header');
 
+const Logo = {
+  render: () => (
+    `
+      <a href="/">
+        <img class="logo" src=${logo} alt='logo' />
+      </a>
+    `
+  )
+};
 
-const $logo = document.createElement('img');
-$logo.src = logo;
-$logo.alt = 'logo';
-$logo.className = 'logo';
-$header.appendChild($logo);
+const Title = {
+  render: () => (
+    `
+      <h1>The Prancing Pony</h1>
+    `
+  )
+};
 
-const $headingText = document.createElement('h1');
-$headingText.textContent = 'The Prancing Pony';
-$header.appendChild($headingText);
+const Nav = {
+  render:() => (
+    `
+      <nav>
+        <ul>
+          <li>
+            <a href="#/home">Home</a>
+          </li>
+          <li>
+            <a href="#/menu">Menu</a>
+          </li>
+          <li>
+            <a href="#/contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    `
+  )
+};
 
-export default $header;
+const Header = {
+  render: () => (
+    `
+      <header>
+        ${Logo.render()}
+        <div class="title-nav">
+          ${Title.render()}
+          ${Nav.render()}
+        </div>
+      </header>
+    `
+  )
+}
+
+export default Header;
