@@ -4,16 +4,24 @@ body {
   font-family: fantasy;
 }
 
+#root {
+  padding: 2rem 20rem 0;
+}
+
+main {
+  height: 100vh;
+  background: #b5d161;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
 a {
   color: unset;
   text-decoration: none;
 }
 
-
-
 header {
   display: flex;
-  margin: 2rem 20rem 0;
   border-bottom: 1rem solid #687e25;
   border-radius: 1rem;
   color: #59804d;
@@ -45,4 +53,27 @@ header h1 {
   margin: unset;
   padding: 0 5rem;
   font-size: 1.5rem;
+}
+
+.home {
+  margin: 0rem 5rem;
+  font-size: 1.1rem;
+}
+
+.intro {
+  text-align: center;
+}
+
+.intro h6{
+  margin: unset;
+  font-size: 1.1rem;
+}
+
+.intro h4 {
+  margin: 0.5rem 0;
+  font-size: 1.4rem;
+}
+
+.home p {
+  margin: 1.5rem 0;
 }
