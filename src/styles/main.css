@@ -55,6 +55,11 @@ header h1 {
   font-size: 1.5rem;
 }
 
+.hightlight {
+  color: #243010;
+  font-weight: 900;
+}
+
 .home {
   margin: 0rem 5rem;
   font-size: 1.1rem;
@@ -87,4 +92,22 @@ header h1 {
 
 .visitors img {
   border-radius: 8px;
+}
+
+.menu {
+  margin: 0rem 5rem;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.menu li {
+  margin-bottom: 0.8rem;
+}
+
+.menu li span {
+  font-size: 1.2rem;
+}
+
+.beverage {
+  margin-top: 1.5rem;
 }

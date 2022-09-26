@@ -43,7 +43,7 @@ const Disclaimer = {
     `
       <section>
         <h4>Disclaimer:</h4>
-        <p>Management isn\`t responsible for your safety while you enjoy your stay!!</p>
+        <p>Management isn\`t responsible for your safety!! ¯\\_(ツ)_/¯</p>
       </section>
     `
   )

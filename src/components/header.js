@@ -24,13 +24,13 @@ const Nav = {
       <nav>
         <ul>
           <li>
-            <a href="#/home">Home</a>
+            <a id="home" href="#/home">Home</a>
           </li>
           <li>
-            <a href="#/menu">Menu</a>
+            <a id="menu" href="#/menu">Menu</a>
           </li>
           <li>
-            <a href="#/contact">Contact</a>
+            <a id="contact" href="#/contact">Contact</a>
           </li>
         </ul>
       </nav>
@@ -49,7 +49,16 @@ const Header = {
         </div>
       </header>
     `
-  )
+  ),
+  highlight: (name)  => {
+    const $nav = document.getElementById(name);
+    if ($nav) {
+      document.getElementById('home').classList.remove('hightlight');
+      document.getElementById('menu').classList.remove('hightlight');
+      document.getElementById('contact').classList.remove('hightlight');
+      $nav.classList.add('hightlight');
+    }
+  }
 }
 
 export default Header;

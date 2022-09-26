@@ -15,10 +15,13 @@ const router = (event) => {
   const hashName = event.target.location.hash?.slice(2);
   if (!hashName || hashName === 'home') {
     $main.innerHTML = Home.render();
+    Header.highlight('home');
   } else if (hashName === 'menu') {
     $main.innerHTML = Menu.render();
+    Header.highlight('menu');
   } else if (hashName === 'contact') {
     $main.innerHTML = Contact.render();
+    Header.highlight('contact');
   }
 }
 
