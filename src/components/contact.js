@@ -1,2 +1,10 @@
-const contact = () => 'Contact Us'
-export default contact;
+const Contact = {
+  render: () => (
+    `
+      <article>
+        contact
+      </article>
+    `
+  )
+} 
+export default Contact;

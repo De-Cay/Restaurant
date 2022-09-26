@@ -1,2 +1,10 @@
-const menu = () => 'Menu'
-export default menu;
+const Menu = {
+  render: () => (
+    `
+      <article>
+       Menu
+      </article>
+    `
+  )
+} 
+export default Menu;
