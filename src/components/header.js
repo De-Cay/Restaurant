@@ -3,7 +3,7 @@ import logo from '../static/images/logo.jpg';
 const Logo = {
   render: () => (
     `
-      <a href="/Restaurant">
+      <a href="#/home">
         <img class="logo" src=${logo} alt='logo' />
       </a>
     `

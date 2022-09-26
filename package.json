@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/De-Cay/Restaurant.git"
+    "url": "git+https://github.com/dush-ik/Restaurant.git"
   },
-  "author": "De-Cay",
+  "author": "dush-ik",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/De-Cay/Restaurant/issues"
+    "url": "https://github.com/dush-ik/Restaurant/issues"
   },
-  "homepage": "https://github.com/De-Cay/Restaurant#readme",
+  "homepage": "https://github.com/dush-ik/Restaurant#readme",
   "devDependencies": {
     "css-loader": "^6.3.0",
     "html-webpack-plugin": "^5.3.2",
