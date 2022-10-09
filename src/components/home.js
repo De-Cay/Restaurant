@@ -29,9 +29,9 @@ const Patron = {
       <section>
         <h4>Our frequent visitors:</h4>
         <div class="visitors">
-          <img src=${PointyHat} alt="Gandalf smoking" width="300px" title="Gandalf" />
-          <img src=${Strider} alt="Strider brooding" width="300px" title="Strider" />
-          <img src=${WitchKing} alt="Witch-king screeching" width="300px" title="Witch King" />
+          <img src=${PointyHat} alt="Gandalf smoking" width="30%" title="Gandalf" />
+          <img src=${Strider} alt="Strider brooding" width="30%" title="Strider" />
+          <img src=${WitchKing} alt="Witch-king screeching" width="30%" title="Witch King" />
         </div>
       </section>
     `
